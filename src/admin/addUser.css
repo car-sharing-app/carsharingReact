@@ -1,0 +1,25 @@
+#formForNewUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newCarForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+legend{
+    text-align: center;
+    /* margin-left:20px; */
+    margin-right: 20px;
+}
+
+#divForAddingCar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

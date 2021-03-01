@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid white;
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.del{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#f{
+    width: 500px ;
+}
+
+.del2{
+    width: 30px;
+    height: 30px;
+}

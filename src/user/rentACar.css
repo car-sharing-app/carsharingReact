@@ -1,0 +1,86 @@
+#right{
+    overflow-y: scroll !important;
+}
+
+#fControl{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.onePart{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+#search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset{
+    width: 100%;
+}
+
+legend{
+    color: white !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+}
+
+span{
+    color: white !important;
+}
+
+#dates{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#place{
+    display: flex;
+    justify-content: center;
+}
+
+.field{
+    margin: 20px;
+}
+
+.button{
+    margin-top: 25px;
+}
+
+#divForCars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cars{
+    flex:1;
+    display: flex;
+    border-top: 1px solid white;
+}
+
+.oneInside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carImg{
+    width: 75%;
+    height: 75%;
+}
+
+.button{
+    margin-bottom: 10px !important;
+}

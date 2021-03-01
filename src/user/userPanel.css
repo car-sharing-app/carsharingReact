@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    flex: 1;
+    background-color: #18121E;
+}
+
+#right{
+    flex: 5;
+    background-color: #232337;
+}

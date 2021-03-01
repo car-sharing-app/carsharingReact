@@ -1,0 +1,28 @@
+#title{
+    color: #eac67a;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#right2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#error_info{
+    color: #984b43;
+}
+
+p{
+    color: white
+}
+span{
+    color: #eac67a;
+}
+
+#error_info2{
+    color: #984b43;
+    margin: 0px;
+}

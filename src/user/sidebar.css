@@ -1,0 +1,38 @@
+.top{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+}
+
+.sub{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+
+}
+
+.MuiSvgIcon-root {
+    fill: white !important;
+}
+.step-enter {
+    opacity: 0;
+    height: 0px;
+   }
+.step-enter.step-enter-active {
+    opacity: 1;
+    height: inherit;
+    transition-property: opacity, height;
+    transition-duration: 1500ms;
+}
+.step-exit {
+    opacity: 1;
+    height: 100px;
+    transition-property: opacity, height;
+    transition-duration: 500ms;
+}
+.step-exit.step-exit-active {
+    opacity: 0;
+    height: 0px;
+}

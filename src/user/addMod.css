@@ -1,0 +1,15 @@
+#scaleDown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainForm{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form{
+    margin: 20px;
+}
